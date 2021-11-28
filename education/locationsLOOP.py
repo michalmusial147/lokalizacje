@@ -5,8 +5,8 @@ import json
 import http.client
 import xlsxwriter as xlsxwriter
 
-key = 'education'
-values = ['university', 'school', 'college', 'kindergarten', 'centre', 'facultative_school', 'exercise_area']
+key = 'leisure'
+values = ['garden','golf_course', 'nature_reserve', 'park']
 
 def getDataFromOverpass(key, value):
     connection = http.client.HTTPConnection('lz4.overpass-api.de')
